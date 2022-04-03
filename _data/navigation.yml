@@ -15,9 +15,9 @@ docs:
   - title: Getting STARTED
     children:
     - title: "Quick-start Guide"
-      url: /index.html/
+      url: https://mean9park.github.io
     - title: "structure"
-      url: /index.html/
+      url: localhost:4000
 
   - title: Second Big menu
     children:
