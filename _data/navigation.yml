@@ -2,11 +2,26 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  #
+docs:
+  - title: Getting STARTED
+    children:
+    - title: "Quick-start Guide"
+      url: /index.html/
+    - title: "structure"
+      url: /index.html/
+
+  - title: Second Big menu
+    children:
+    - title: "NOthing in here"
+    - title: "Also Nothing in there"
+    - title: "Everyone has notihn"
+    - title: "nothig on you"
