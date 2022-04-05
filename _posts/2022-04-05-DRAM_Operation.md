@@ -1,12 +1,15 @@
 ---
 layout: single
-title: "My second post"
-date: "2022-04-04 22:10:00 +0900"
-last_modified_at: "2022-04-04 22:10:00 +0900"
+title: "DRAM Operation"
+description:: DRAM Operation and Struction
+date: "2022-04-05 21:12:00 +0900"
+last_modified_at: "2022-04-05 21:30:00 +0900"
 tags: ["tag1", "tag3"]
 ---
 
-It's my secode post
+> DRAM Operation and Structure 1
+> Part II __soon__ begins
+---
 
 # the topic
 
