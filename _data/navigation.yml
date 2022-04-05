@@ -16,8 +16,8 @@ docs:
     children:
     - title: "Quick-start Guide"
       url: https://mean9park.github.io
-    - title: "structureing123"
-      url: localhost:4000
+    - title: "structureingrr_local"
+      url: https://127.0.0.1:4000
 
   - title: Second Big menu
     children:
