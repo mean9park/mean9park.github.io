@@ -19,7 +19,7 @@ print("hello")
 ```
 
 
-[Google][https://google.com]
+[Google](https://google.com)
 
 ![come on crow~!](../assets/images/crow.png)
 

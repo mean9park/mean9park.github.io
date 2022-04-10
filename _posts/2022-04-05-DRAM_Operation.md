@@ -1,14 +1,17 @@
 ---
 layout: single
 title: "DRAM Operation"
-description:: DRAM Operation and Struction
+description: DRAM Operation and Struction
 date: "2022-04-05 21:12:00 +0900"
 last_modified_at: "2022-04-05 21:30:00 +0900"
 tags: ["tag1", "tag3"]
 ---
+	
 
 > DRAM Operation and Structure 1
+
 > Part II __soon__ begins
+
 ---
 
 # the topic
@@ -22,7 +25,10 @@ print("hello")
 ```
 
 
-[Google][https://google.com]
+good <br>
+and it's `one line code` let's see
+
+[Google](https://google.com)
 
 ![come on crow~!](../assets/images/crow.png)
 
