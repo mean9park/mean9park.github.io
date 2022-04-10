@@ -4,6 +4,7 @@ title: "DRAM Operation"
 description: DRAM Operation and Struction
 date: "2022-04-05 21:12:00 +0900"
 last_modified_at: "2022-04-05 21:30:00 +0900"
+comments: true
 tags: ["tag1", "tag3"]
 ---
 	
