@@ -12,16 +12,33 @@ main:
   #   url: /sitemap/
   #
 docs:
-  - title: Getting STARTED
-    children:
-    - title: "Quick-start Guide"
-      url: https://mean9park.github.io
-    - title: "structureingrr_local"
-      url: https://127.0.0.1:4000
+  - title: HomePage
+    url: https://mean9park.github.io
 
-  - title: Second Big menu
+  - title: AI Accelertator
     children:
-    - title: "NOthing in here"
-    - title: "Also Nothing in there"
-    - title: "Everyone has notihn"
-    - title: "nothig on you"
+    - title: "Research"
+    - title: "Paper Review"
+    - title: "Verilog"
+    - title: "CMOS VLSI"
+
+  - title: DRAM
+    children:
+    - title: "Architecture"
+    - title: "Operation"
+    - title: "Reliability"
+  
+  - title: C++ / Algorithm
+    children:
+    - title: "Paper Review"
+    - title: "Research"
+  
+  - title: AI
+    children:
+    - title: "ViT"
+    - title: "Model Compression"
+
+  - title: AI Mathmatics
+    children:
+    - title: "Linear Algebra"
+    - title: "Convex Optimization"
