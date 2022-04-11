@@ -24,19 +24,22 @@ layout: archive
       {% for post in year.items %}
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
-
-
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-
-
   </section>
 {% endfor %}
 
-      <script src="https://utteranc.es/client.js"
-	  repo="mean9park/mean9park.github.io"
-	  issue-term="pathname"
-	  theme="github-light"
-	  crossorigin="anonymous"
-	  async>
-      </script>
+<script src="https://giscus.app/client.js"
+        data-repo="mean9park/blog-comments"
+        data-repo-id="R_kgDOHKH1aw"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOHKH1a84COhFM"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
