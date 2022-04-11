@@ -44,6 +44,7 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
+    repo                 : "mean9park/mean9park.github.io"  # Shown during giscus setup at https://giscus.app
     repo_id              : "R_kgDOHKH1aw"  # Shown during giscus setup at https://giscus.app
     category_name        : "Q&A" # Full text name of the category
     category_id          : "DIC_kwDOHKH1a84COhFM" # Shown during giscus setup at https://giscus.app
