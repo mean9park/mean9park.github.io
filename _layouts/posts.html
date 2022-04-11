@@ -25,6 +25,10 @@ layout: archive
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
 
+
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
       <script src="https://utteranc.es/client.js"
 	  repo="mean9park/mean9park.github.io"
 	  issue-term="pathname"
@@ -33,8 +37,6 @@ layout: archive
 	  async>
       </script>
 
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
 
