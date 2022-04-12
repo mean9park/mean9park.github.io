@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mean9park.github.io/sitemap.xml
