@@ -4,7 +4,7 @@ title: "DRAM Device Configuration"
 description: DRAM Structure
 date: "2022-04-05 21:12:00 +0900"
 last_modified_at: "2022-04-13 21:30:00 +0900"
-tags: ["DRAN", "Memory Architecture"]
+tags: ["DRAM", "Memory Architecture"]
 ---
 	
 > __Part I__ DRAM Device Configuration
