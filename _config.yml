@@ -106,11 +106,11 @@ author:
   avatar           : "/assets/images/crow.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Sry for the uncompleted website, Just started and working on it :) Thank you!"
   location         : "Seoul"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "celion@yonsei.ac.kr"
+        #      url: "celion@yonsei.ac.kr"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
