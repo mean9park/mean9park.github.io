@@ -85,7 +85,7 @@ Since we set the BL with 1/2, we can see the direction BL voltage varies dependi
 <img src="../assets/images/DRAM_read_2.png" alt="DRAM_Cell" width="300"/>
 </p>
 
-For example, assume that we have 0 data which is empty,
+For example, assume that we have __0 data__ which is empty,
 sharing charge is just like sharing the water between 2 different size of bottles of water.
 When we consider the overll DRAM cell array, BL is quite lengthy. 
 That leads to have a lot of parasite cap, so the charge is larger than a DRAM cell can have.
@@ -98,7 +98,14 @@ Next, turn the switch on? Water flows into the cell resulting in a little lower 
 <img src="../assets/images/DRAM_charge_sharing_01.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-In the same manner, we can think of the 1-data case but the different direction of flow.
+You remember that there's a sense amplifer at the bottom of read operation figure.
+Since the difference is so small, we have to amplify the tiny variance so that we can use it as 1 or 0.
+That's what sense amplify does and let's take a look at the figures below.
+<p align="center">
+<img src="../assets/images/DRAM_charge_sharing_02.png" alt="DRAM_Cell" width="600"/>
+</p>
+
+In the same manner, we can think of the __1 data__ case but the different direction of flow.
 Firstly, precharge the BL with the access transistor off.
 <p align="center">
 <img src="../assets/images/DRAM_charge_sharing_10.png" alt="DRAM_Cell" width="600"/>
@@ -109,7 +116,13 @@ Charge sharing occurred as we open the access transistor.
 <img src="../assets/images/DRAM_charge_sharing_11.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-You might remember that there's a sense amplifer at the bottom of read operation figure.
-Since the difference is so small, we have to amplify it so that we make use it as 1 or 0.
-That's what sense amplify does and the data resides in the buffer somewhere below.
+As you can imagine, we can get the data 1 by amplifying it.
+<p align="center">
+<img src="../assets/images/DRAM_charge_sharing_12.png" alt="DRAM_Cell" width="600"/>
+</p>
 
+So far, we've looked into how DRAM write / read operation work in terms of DRAM cell.
+In electric circuit perspective, data is stored in capacitor or the __dynamic__ node.
+It's one of the important charastics of DRAM and its name comes from.
+The data in the dynamic nodes leaks over time and read operation uses its actual charge, so it's also called destructive read.
+I'm going to deal with them later posts.
