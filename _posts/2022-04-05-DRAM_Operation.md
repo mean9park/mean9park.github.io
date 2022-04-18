@@ -109,7 +109,7 @@ Charge sharing occurred as we open the access transistor.
 <img src="../assets/images/DRAM_charge_sharing_11.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-You might remeber that there's sense amplifer at the bottom of read operation figure.
+You might remember that there's a sense amplifer at the bottom of read operation figure.
 Since the difference is so small, we have to amplify it so that we make use it as 1 or 0.
 That's what sense amplify does and the data resides in the buffer somewhere below.
 
