@@ -85,6 +85,7 @@ Since we set the BL with 1/2, we can see the direction BL voltage varies dependi
 <img src="../assets/images/DRAM_read_2.png" alt="DRAM_Cell" width="300"/>
 </p>
 
+---
 For example, assume that we have __0 data__ which is empty,
 sharing charge is just like sharing the water between 2 different size of bottles of water.
 When we consider the overll DRAM cell array, BL is quite lengthy. 
@@ -105,6 +106,7 @@ That's what sense amplify does and let's take a look at the figures below.
 <img src="../assets/images/DRAM_charge_sharing_02.png" alt="DRAM_Cell" width="600"/>
 </p>
 
+---
 In the same manner, we can think of the __1 data__ case but the different direction of flow.
 Firstly, precharge the BL with the access transistor off.
 <p align="center">
@@ -124,5 +126,5 @@ As you can imagine, we can get the data 1 by amplifying it.
 So far, we've looked into how DRAM write / read operation work in terms of DRAM cell.
 In electric circuit perspective, data is stored in capacitor or the __dynamic__ node.
 It's one of the important charastics of DRAM and its name comes from.
-The data in the dynamic nodes leaks over time and read operation uses its actual charge, so it's also called destructive read.
-I'm going to deal with them later posts.
+The data in the dynamic nodes leaks over time which requires refresh and read operation uses its actual stored charge, so it's also called destructive read.
+Later posts will deal with them in details. 
