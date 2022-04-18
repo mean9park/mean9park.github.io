@@ -79,30 +79,37 @@ Before we open the transistor, we "precharge" the BL with 1/2 voltage.
 <img src="../assets/images/DRAM_read_1.png" alt="DRAM_Cell" width="300"/>
 </p>
 
-And then, by opening the access transistor, we let the capacitor and BL charge share.
+And then, by opening the access transistor, we let the capacitor and BL charge-share.
 Since we set the BL with 1/2, we can see the direction BL voltage varies depending on the stored data.
 <p align="center">
 <img src="../assets/images/DRAM_read_2.png" alt="DRAM_Cell" width="300"/>
 </p>
 
-For example, assume that we have 0 data, which is empty.
-Sharing charge is just like sharing the water with 2 different bottles of water.
-When we consider the overll DRAM cell array, BL is quite length. 
+For example, assume that we have 0 data which is empty,
+sharing charge is just like sharing the water between 2 different size of bottles of water.
+When we consider the overll DRAM cell array, BL is quite lengthy. 
 That leads to have a lot of parasite cap, so the charge is larger than a DRAM cell can have.
 <p align="center">
 <img src="../assets/images/DRAM_charge_sharing_00.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-Turn the switch on? Water flows into the cell resulting in a little lower surface level.
+Next, turn the switch on? Water flows into the cell resulting in a little lower surface level.
 <p align="center">
 <img src="../assets/images/DRAM_charge_sharing_01.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-In the same manner, we can think of the 1 data case with the different direction of flow.
+In the same manner, we can think of the 1-data case but the different direction of flow.
+Firstly, precharge the BL with the access transistor off.
 <p align="center">
 <img src="../assets/images/DRAM_charge_sharing_10.png" alt="DRAM_Cell" width="600"/>
 </p>
 
+Charge sharing occurred as we open the access transistor.
 <p align="center">
 <img src="../assets/images/DRAM_charge_sharing_11.png" alt="DRAM_Cell" width="600"/>
 </p>
+
+You might remeber that there's sense amplifer at the bottom of read operation figure.
+Since the difference is so small, we have to amplify it so that we make use it as 1 or 0.
+That's what sense amplify does and the data resides in the buffer somewhere below.
+
