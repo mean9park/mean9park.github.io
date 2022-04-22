@@ -103,9 +103,9 @@ analytics:
 # Site Author
 author:
   name             : "AI Accelerator & Memory Architecture"
-  avatar           : "/assets/images/crow.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Sry for the uncompleted website, Just started and working on it :) Thank you!"
-  location         : "Home Sweet Home"
+  avatar           : "/assets/images/aurora_crop.png" 
+  bio              : "Student, always open to feedback :)" # "Sry for the uncompleted website, Just started and working on it :) Thank you!"
+  location         : 
   email            : 
   links:
     - label: "Email"

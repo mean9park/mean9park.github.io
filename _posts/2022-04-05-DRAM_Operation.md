@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Basic DRAM Device Configuration"
-description: Basic DRAM Device Configuration
+title: "Basic DRAM Configuration and Operation"
+description: Basic DRAM Device Configuration and Write / Read Operation within a DRAM cell
 date: "2022-04-05 21:12:00 +0900"
-last_modified_at: "2022-04-13 21:30:00 +0900"
+last_modified_at: "2022-04-18 11:30:00 +0900"
 tags: ["DRAM", "Memory Architecture"]
 ---
 	
@@ -12,7 +12,7 @@ tags: ["DRAM", "Memory Architecture"]
 # DRAM
 # (Dynamic Random Access Memory)
 is most widely used as a main memory these days.
-With a tremendous development of semiconductor industry, the performance of DRAM has been increasing. (There's always been people who thought it's close to the end tho)
+With a tremendous development of semiconductor technology, the performance of DRAM has been increasing constantly. (There's always been people who thought it's close to the end tho)
 How has it been possible to constantly increase the performance?
 
 Well, I guess we first should dive into what DRAM looks like inside and see how it operates.
@@ -123,8 +123,8 @@ As you can imagine, we can get the data 1 by amplifying it.
 <img src="../assets/images/DRAM_charge_sharing_12.png" alt="DRAM_Cell" width="600"/>
 </p>
 
-So far, we've looked into how DRAM write / read operation work in terms of DRAM cell.
-In electric circuit perspective, data is stored in capacitor or the __dynamic__ node.
-It's one of the important charastics of DRAM and its name comes from.
+So far, we've looked into how DRAM write / read operation work within a DRAM cell.
+To be more specific, the data is stored in capacitor or the __dynamic__ node.
+It's one of the important characteristics of DRAM and where the name comes from.
 The data in the dynamic nodes leaks over time which requires refresh and read operation uses its actual stored charge, so it's also called destructive read.
 Later posts will deal with them in details. 

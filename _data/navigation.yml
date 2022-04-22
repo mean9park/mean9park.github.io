@@ -38,7 +38,7 @@ docs:
       #    - title: "ViT"
       #    - title: "Model Compression"
 
-      #  - title: AI Mathmatics
-      #    children:
-      #    - title: "Linear Algebra"
+  - title: AI Mathmatics
+    children:
+    - title: "Linear Algebra"
       #    - title: "Convex Optimization"
