@@ -26,6 +26,7 @@ docs:
     children:
       #    - title: "Architecture"
     - title: "Operation"
+      url: https://mean9park.github.io/DRAM_Operation
       #    - title: "Reliability"
   
       #  - title: C++ / Algorithm
@@ -41,4 +42,9 @@ docs:
   - title: AI Mathmatics
     children:
     - title: "Linear Algebra"
+      url: https://mean9park.github.io/SVD
       #    - title: "Convex Optimization"
+  
+      #  - title: Digital Logic Circuits
+      #    children:
+      #    - title: "Sorting Network"
