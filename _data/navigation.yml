@@ -48,3 +48,7 @@ docs:
       #  - title: Digital Logic Circuits
       #    children:
       #    - title: "Sorting Network"
+  - title: Digital Logic Circuits
+    children:
+    - title: "Sorting Network"
+      url: https://mean9park.github.io/Sorting_network
