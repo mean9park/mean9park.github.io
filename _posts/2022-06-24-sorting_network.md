@@ -106,10 +106,10 @@ Therefore, in HW perspective, ___sorting network___ is more suitable for the imp
 > Sorting Network
 ---
 
-Let's say that we implement a sorting algorithm with only comparison units and the fixed length of list.
+Let's say that we implement a sorting algorithm with only comparison units and a fixed length of list.
 First, below is a basic component that composes a sorting network.
 For simplicity, a wire-like bridge that crosses two lines indicates a comparison unit.
-The direction of comparator wouldn't matter as long as all the comparators have the same one.
+The direction of comparator doesn't matter as long as all the comparators have the same direction.
 
 <p align="center">
   <img src="../assets/images/sorting_basic.png" alt="sorting basic element" width="200"/>
