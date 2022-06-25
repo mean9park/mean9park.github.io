@@ -122,8 +122,8 @@ Next, below is a simple sorting algorithm implementation that receives 4 inputs.
 </p>
 
 You might notice that it's a 4-input bubble sort.
-Due to its restrictions like fixed length of input, not every sorting algorithm can be efficiently implemented.
-Therefore, it has its own optimized method and the most generally used network is called ___sorting network___.
+Due to its restrictions like the fixed length of input, not every sorting algorithm can be efficiently implemented.
+Therefore, it has its own effective method and one of generally used networks is ___sorting network___.
 
 <p align="center">
   <img src="../assets/images/sorting_network.png" alt="a sorting network" width="500"/>
